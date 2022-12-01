@@ -1,1 +1,1 @@
-project 2
+This directory contains if/else conditional codes

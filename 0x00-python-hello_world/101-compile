@@ -1,4 +1,2 @@
-#!/usr/bin/python3
-str = "Holberton School"
-print(str + str + str)
-print(str[:9])
+#!/bin/bash
+python3 -m compileall $PYFILE; cp __pycache__/*.pyc "${PYFILE}c"; rm -rf ./__pycache__

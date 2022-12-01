@@ -1,10 +1,7 @@
 #!/usr/bin/python3
-a = 1
-for x in range(0, 9):
-    for y in range(a, 10):
-        pair = str(x)+str(y)
-        if pair == "89":
-            print(89)
+for i in range(0, 9):
+    for j in range(i + 1, 10):
+        if i == 8 and j == 9:
+            print("{:d}{:d}".format(i, j))
         else:
-            print("{}, ".format(pair), end="")
-    a += 1
+            print("{:d}{:d}".format(i, j), end=", ")

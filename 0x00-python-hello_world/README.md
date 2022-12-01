@@ -1,1 +1,1 @@
-Python programming language: Project-1
+This directory contains introductory tasks to python.
